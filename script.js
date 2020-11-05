@@ -4,7 +4,7 @@ var checkbox = document.querySelector('#dark-mode')
 
 function terms_change(){
     //If it is checked.
-    if(body.style.backgroundColor == 'whitesmoke'){
+    if(body.style.backgroundColor == 'white'){
         alert('you atived the page darkmode');
 				checkbox.checked = true;
 							body.style.backgroundColor = '#121519';
@@ -13,7 +13,7 @@ function terms_change(){
     else{
         alert('you atived the page lightmode');
 				checkbox.checked = false;
-				body.style.backgroundColor = 'whitesmoke';
+				body.style.backgroundColor = 'white';
 							
     }
 }
